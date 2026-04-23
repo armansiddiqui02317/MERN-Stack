@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING CSS</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        h1 {
+            color: aqua;
+            border: 2px solid blue;
+        }
+
+        .text {
+            color: blueviolet;
+        }
+
+        #mytag {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        h3 {
+            background-color: rgb(45, 228, 228);
+            font-size: 50px;
+        }
+
+        .mytext {
+            background-color: rgba(13, 222, 222,);
+            color: azure ;
+        }
+        #myid{
+            color: brown !important;
+        }
+    </style>
+</head>
+
+<body>
+    <p style=" color:blue; font-size: 50px">
+        InLined CSS is used to style individual tags only
+    </p>
+
+    <p>Internal CSS is used to style multiple tags at once</p>
+
+
+    <h1>Internal CSS is used to style multiple tags at once</h1>
+    <h1 class="text">Name Selecter are used to style elemwnt by their tag name</h1>
+    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <h2 id="mytag">Id Selecters are used to select elements by their id name </h2>
+
+    <button class="btn">My Button</button>
+    <h3 class="mytext" id="myid" style="color:chartreuse">Selectors Priority</h3>
+
+</body>
+
+</html>
